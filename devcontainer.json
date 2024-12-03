@@ -1,0 +1,18 @@
+{
+  "name": "Angular 4 Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "Angular.ng-template",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint"
+      ]
+    }
+  },
+  # "postCreateCommand": "ng new my-angular-app --defaults && cd my-angular-app && npm install",
+  "forwardPorts": [4200],
+  "remoteUser": "node"
+}
